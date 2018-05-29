@@ -1,0 +1,16 @@
+#rbd fio seq write
+[global]
+ioengine=rbd
+clientname=admin
+pool=rbdbench
+rbdname=image01
+rw=write
+direct=1
+bs=4k
+#runtime=60
+#logging
+write_iops_log=rbd_4k_write_iops_log
+write_bw_log=rbd_4k_write_bw_log
+write_lat_log=rbd_4k_write_lat_log
+[rbd_iodepth32]
+iodepth=32
