@@ -9,10 +9,11 @@
 DATES=$(date "+%Y-%m-%d")
 file="/dev/vdd"
 BS_COUNT_8K=(8K 12K)
+BS_COUNT_16K=(16K 8K)
 BS_COUNT_64K=(64K 6K)
 BS_COUNT_1M=(1M 1K)
 BS_COUNT_4M=(4M 1K)
-list="8K 64K 1M 4M"
+list="8K 16K 64K 1M 4M"
 wlog=/tmp/ddwrite.log.${DATES}
 rlog=/tmp/ddread.log.${DATES}
 #write

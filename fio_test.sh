@@ -10,7 +10,7 @@ file="/dev/vdd"
 writemode="randwrite write"
 readmode="randread read"
 rwmode="randrw rw"
-list="4K 8K 64K 512K 1M 4M"
+list="4K 8K 16K 64K 512K 1M 4M"
 fsize="20G"
 runtime=120
 #rwmixwrite set mix mode write ratio 40%
